@@ -1,0 +1,9 @@
+통계 쿼리 : 시도별 코로나 현황 집계 (누적순위) /corona/status
+
+통계 쿼리 : 특정 지역, 년, 월 평균 온습도 /weather/status?area=부산&year=2020&month=07
+
+통계 쿼리 : 특정 지역, 년, 월 평균 실측파고 /bouy/status?area=해운대&year=2020&month=07
+
+실시간 현황 : KMA 코로나팩트 /corona/lately
+
+통계 쿼리 : 특정 지역, 년, 월 온습도 중간값 /weather/median?area=부산&year=2020&month=07&branch=temp
