@@ -59,3 +59,18 @@ CREATE TABLE coronafact (
   rdate datetime DEFAULT NOW(),
   primary key (num)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+CREATE TABLE missing (
+  num int(11) NOT NULL AUTO_INCREMENT,
+  src varchar(50) NOT NULL,
+  seq varchar(50) NOT NULL,
+  title varchar(100) NOT NULL,
+  thumbnail varchar(255) NOT NULL,
+  kind varchar(100) NOT NULL,
+  age varchar(100) NOT NULL,
+  odate varchar(100) NOT NULL, 
+  area varchar(100) NOT NULL,
+  wear varchar(100) NOT NULL,  
+  posted datetime DEFAULT NOW(),
+  primary key (num)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
